@@ -4,7 +4,9 @@ import {
   updateUserProfile,
   changeUserPassword,
 } from "../controller/userController.js";
-import verifyToken from "../middleware/authMiddleWare.js";
+
+import verifyToken from "../middleware/authMiddleware.js";
+
 
 const router = express.Router();
 
