@@ -17,6 +17,4 @@ router.put("/profile", verifyToken, updateUserProfile);
 // Change password
 router.post("/change-password", verifyToken, changeUserPassword);
 
-
-
 export default router;
